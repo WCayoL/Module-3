@@ -1,7 +1,88 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+          <div class="container-fluid d-flex align-items-center">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+              <div>
+                <h1 class="mb-0">Food, LCC</h1>
+              </div>
+            </a>
+            <button type="button" class="navbar-toggler d-block d-sm-none" data-bs-toggle="collapse" data-bs-target="#collapse-nav" aria-controls="collapse-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div id="collapse-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="navbar-nav ms-auto">
+              <li class="nav-item d-block d-sm-none">
+                <a href="#chicken-title" class="nav-link btn btn-primary btn-lg active">
+                  <span class="Chicken">Chicken</span> 
+                </a>
+              </li>
+              <li class="nav-item d-block d-sm-none">
+                <a href="#beef-title" class="nav-link btn btn-primary btn-lg active">
+                  <span class="Beef">Beef</span> 
+                </a>
+              </li>
+              <li class="nav-item d-block d-sm-none">
+                <a href="#sushi-title" class="nav-link btn btn-primary btn-lg active">
+                  <span class="Sushi">Sushi</span> 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <h2>Our Menu</h2>
+    
+    <div id="main-content" class="container-fluid">
+        <div id="home-tiles" class="row">
+          <div class="col-md-4 col-sm-6 col-12">
+            <div id="chicken-title">
+                <span>Chicken</span> <br>
+                <a> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a>
+                <br>
+                <a href="index.html" id="fin"> ⬆ Back To Top ⬆</a>
+            </div>
+          </div>    
+          <div class="col-md-4 col-sm-6 col-12">
+            <div id="beef-title">
+                <span>Beef</span><br>
+                <a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a>
+                <br>
+                <a href="index.html" id="fin"> ⬆ Back To Top ⬆</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-12">
+            <div id="sushi-title">
+                <span>Sushi</span><br>
+                <a> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </a>
+                <br>
+                <a href="index.html" id="fin"> ⬆ Back To Top⬆</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="text-center p-4" id="copy">&copy; Copyright Wilson Cayo López 2024 </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
 </html>
